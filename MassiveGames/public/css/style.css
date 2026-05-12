@@ -47,7 +47,7 @@ button {
 
 
 h2 {
-    color: #035235;
+    color: #04AA6D;
 }
 
 
@@ -65,7 +65,7 @@ h2 {
 .GamesImages li {
   list-style: none;
   flex: 1 1 200px;
-  padding: none;
+  padding: 0px;
   width: 30%;
   
 }
@@ -82,3 +82,9 @@ h2 {
   width: 100px;
   height: 100px;
 }
+    div {
+      width: 400px;
+    }
+      div.a{
+        word-wrap: break-word;
+      }
