@@ -1,14 +1,15 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f3f6f9;
+  background-color: #000000;
   margin: 0;
+  color: white;
 }
 
 
 section {
   max-width: 500px;
   margin: 60px auto;
-  background: white;
+  background: rgb(255, 255, 255);
   padding: 24px;
   border-radius: 6px;
 }
@@ -30,31 +31,35 @@ button {
 
 .cards {
   display: flex;
-  gap: 24px;
+  gap: 50px;
+  
 }
 
 
 .cards li {
   list-style: none;
   flex: 1 1 200px;
-  padding: 16px;
-  border: 1px solid #08b374;
+  padding: 13px;
+  border: 1px solid #000000;
   border-radius: 12px;
+  height: 400px;
 }
 
 
-h3 {
+h2 {
     color: #035235;
 }
 
 
 .GamesImages {
     display: flex;
-    gap: 24px;
+    gap: 20px;
     width: 100%;
     padding: 0px;
     margin: 0;
     border: none;
+    height: 175px;
+    
 }
 
 .GamesImages li {
@@ -62,10 +67,18 @@ h3 {
   flex: 1 1 200px;
   padding: none;
   width: 30%;
+  
 }
 
 
 .GamesImages img {
-  width: 100%;
-  padding: 24px;
+  float: right;
+  width: 89%;
+  
+  gap: 20px;
+  
+}
+.small-img {
+  width: 100px;
+  height: 100px;
 }
